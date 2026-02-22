@@ -5,6 +5,7 @@
   },
   "deploy": {
     "startCommand": "node server.js",
+    "healthcheckPath": "/api/saglik",
     "restartPolicyType": "ON_FAILURE"
   }
 }
